@@ -1,0 +1,72 @@
+/* style.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+  color: #1a1a1;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(90deg, #007BFF, #00A8FF);
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 123, 255, 0.3);
+}
+
+main {
+  padding: 2rem 1rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+h1, h2 {
+  color: #003366;
+}
+
+.intro, .features, .contact {
+  margin-bottom: 2.5rem;
+  background-color: #f5f9ff;
+  padding: 1.5rem;
+  border-left: 5px solid #007BFF;
+  border-radius: 8px;
+}
+
+ul {
+  padding-left: 1.5rem;
+}
+
+.whatsapp-button {
+  display: inline-block;
+  padding: 0.75rem 1.25rem;
+  background-color: #25D366;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.whatsapp-button:hover {
+  background-color: #1ebe5d;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #eaeaea;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.floating-card {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 200px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
